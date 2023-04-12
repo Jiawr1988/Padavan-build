@@ -44,7 +44,8 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: a3004ns
+        TNAME: A3004NS (USB)
+
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
